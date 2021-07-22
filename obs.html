@@ -2,202 +2,228 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <title>OBS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>OBS</title>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"></svg>
-        <span class="fs-4" style="font-weight: bold; font-family: 'Dancing Script', cursive;
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"></svg>
+                <span class="fs-4" style="font-weight: bold; font-family: 'Dancing Script', cursive;
         font-size: larger;">Komti Abadi
-        </span>
-      </a>
+                </span>
+            </a>
 
-      <header class="d-flex justify-content-center py-3">
-        <ul class="navbar nav nav-pills">
-          <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="kontak_pengajar.html" class="nav-link">Daftar Kontak Dosen</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Sidang</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="obs.html">Orientasi Bidang Studi</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Sidang PL</a></li>
-              <li><a class="dropdown-item" href="#">Sidang Proposal</a></li>
-              <li><a class="dropdown-item" href="#">Sidang Hasil</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        </ul>
-      </header>
-
-      <!--Pembuka Desc OBS-->
-      <div class="container-fluid">
-        <div class="bg-light px-4 py-5 my-5 text-center">
-            <h1 class="display-5 fw-bold">Orientasi Bidang Studi</h1>
-            <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Biasanya disingkat OBS. Ini adalah matakuliah di program Studi
-                  <strong>Ilmu Komputer</strong> yang biasanya diambil di semester ganjil atau lebih tepatnya
-                  di <strong>Semester 3</strong>. OBS sama saja dengan <strong>kunjungan industri</strong>
-                  yang dilakukan oleh siswa tingkat menengah (SMA/K). 2 hal yang bikin matkuliah ini cukup seru. <strong>Pertama</strong>
-                  tidak ada pembelajaran dikelas seperti matkul lain. <strong>Kedua</strong> kita jalan - jalan guys! hihihi..
-                  Iya jalan - jalan diakhir semester 3, ya penutup sebelum liburan semesteran. Biasanya OBS dilaksanakan di bulan <strong>Januari atau Februari</strong>  disetiap tahunnya.
-              </p>
-            </div>
-          </div>
-
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="images/meeting.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Kenapa harus OBS?</h1>
-                <p class="lead">
-                    Seperti yang sudah diuraikan diatas OBS mirip dengan kunjungan industri di jenjang
-                    SMA/SMK. Tujuan OBS yaitu untuk mengenalkan, membuka 
-                    wawasan , memotivasi , dan juga bisa sebagai <i>brand awareness</i> perusahaan 
-                    kepada mahasiswa. Kan kita sering penasaran tuh teknologi dibalik suatu perusahaan sehingga biasa
-                    menghandle permintaan pengguna yang sangat banyak. Dengan OBS, kamu bisa leluasa bertanya karena langsung berhadapan dengan direksi atau perwakilan direksi
-                    untuk menanyakan semua yang ada dipikiran kamu.
-                </p>
-              </div>
-            </div>
-          </div>
-      </div>
-
-
-      <!--Carousel Images-->
-      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/pln-foto_bareng.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>PT PLN (Persero) Kantor Pusat Jakarta 2018</h5>
-              <p>Sesi Foto Bersama</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/bnn-sesi_materi.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>BATAN (Badan Tenaga Nuklir Nasional) 2018</h5>
-              <p>Sesi Materi</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/penyerahan-cinderamata.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Penyerahan Cinderamata</h5>
-              <p>Universitas Pakuan - PT. PLN Pusat, Jakarta</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/pln-sesimateri.JPG" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Sesi Seminar - Pengenalan PLN</h5>
-              <p>Diikuti oleh Peserta dari Universitas Pakuan</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!--Penutup Caraousel-->
-
-      <!--Pembuka Masa Pandemi-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Pandemi COVID-19</h1>
-            <p class="lead">
-                Galeri foto yang kalian lihat diatas adalah contoh OBS yang dilaksanakan secara offline. Tentu saja tahun 2019 masih
-                dilaksanakan secara offline. Hingga, pandemi COVID 19 melanda, OBS tetap dilaksanakan namun secara offline, guys.
-            </p>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/social-distancing.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-        </div>
-      </div>
-      <!--Penutup Masa Pandemi-->
-
-      <!--Pembuka Cards Tahun OBS-->
-      <div class="row align-items-center">
-        <div class="col">
-            <!--Pembuka OBS 2018-->
-            <div class="card" style="width: 18rem;">
-                <img src="images/together.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">OBS Tahun 2018</h5>
-                  <p class="card-text">Kegiatan bersifat offline. Ada 2 instansi yang dikunjungi yaitu :</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">PT. PLN Pusat Jakarta</li>
-                  <li class="list-group-item">BATAN (Badan Tenaga Nuklir Nasional)</li>
+            <header class="d-flex justify-content-center py-3">
+                <ul class="navbar nav nav-pills">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="kontak_pengajar.html" class="nav-link">Daftar Kontak Dosen</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Sidang</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="obs.html">Orientasi Bidang Studi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sidang PL</a></li>
+                            <li><a class="dropdown-item" href="#">Sidang Proposal</a></li>
+                            <li><a class="dropdown-item" href="#">Sidang Hasil</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 </ul>
-              </div>
-              <!--Penutup OBS 2018-->
-        </div>
-        <div class="col">
-         <!--Pembuka OBS 2019-->
-         <div class="card" style="width: 18rem;">
-            <img src="images/together.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">OBS 2019</h5>
-              <p class="card-text">Kegiatan ini bersifat offline. Ada 2 instansi yang dikunjungi yaitu :</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">PT. Pertamina Jakarta</li>
-              <li class="list-group-item">Perpustakaan Nasional Republik Indonesia</li>
-            </ul>
-          </div>
-          <!--Penutup OBS 2019-->
-        </div>
-        <div class="col">
-          <!--Pembuka OBS 2020-->
-          <div class="card" style="width: 18rem;">
-            <img src="images/together.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">OBS Tahun 2020</h5>
-              <p class="card-text">Kegiatan ini bersifat offline. Ada 2 instansi yang dikunjungi yaitu :</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Badan Narkotika Nasional (BNN)</li>
-              <li class="list-group-item">Badan Pengkajian dan Penerapan Teknologi (BPPT)</li>
-            </ul>
-          </div>
-          <!--Penutup The Cards-->
-        </div>
-      </div>
-      <!--Penutup Cards-->
+            </header>
 
-  </div>
+            <!--Pembuka Desc OBS-->
+            <div class="container-fluid">
+                <div class="bg-light px-4 py-5 my-5 text-center">
+                    <h1 class="display-5 fw-bold">Orientasi Bidang Studi</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">Biasanya disingkat OBS. Ini adalah matakuliah di program Studi
+                            <strong>Ilmu Komputer</strong> yang biasanya diambil di semester ganjil atau lebih tepatnya
+                            di <strong>Semester 3</strong>. OBS sama saja dengan <strong>kunjungan industri</strong>
+                            yang dilakukan oleh siswa tingkat menengah (SMA/K). 2 hal yang bikin matkuliah ini cukup
+                            seru. <strong>Pertama</strong>
+                            tidak ada pembelajaran dikelas seperti matkul lain. <strong>Kedua</strong> kita jalan -
+                            jalan guys! hihihi..
+                            Iya jalan - jalan diakhir semester 3, ya penutup sebelum liburan semesteran. Biasanya OBS
+                            dilaksanakan di bulan <strong>Januari atau Februari</strong> disetiap tahunnya.
+                        </p>
+                    </div>
+                </div>
 
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                        <div class="col-10 col-sm-8 col-lg-6">
+                            <img src="images/meeting.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                                width="700" height="500" loading="lazy">
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="display-5 fw-bold lh-1 mb-3">Kenapa harus OBS?</h1>
+                            <p class="lead">
+                                Seperti yang sudah diuraikan diatas OBS mirip dengan kunjungan industri di jenjang
+                                SMA/SMK. Tujuan OBS yaitu untuk mengenalkan, membuka
+                                wawasan , memotivasi , dan juga bisa sebagai <i>brand awareness</i> perusahaan
+                                kepada mahasiswa. Kan kita sering penasaran tuh teknologi dibalik suatu perusahaan
+                                sehingga biasa
+                                menghandle permintaan pengguna yang sangat banyak. Dengan OBS, kamu bisa leluasa
+                                bertanya karena langsung berhadapan dengan direksi atau perwakilan direksi
+                                untuk menanyakan semua yang ada dipikiran kamu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Carousel Images-->
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pln-foto_bareng.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PT PLN (Persero) Kantor Pusat Jakarta 2018</h5>
+                            <p>Sesi Foto Bersama</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bnn-sesi_materi.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>BATAN (Badan Tenaga Nuklir Nasional) 2018</h5>
+                            <p>Sesi Materi</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/penyerahan-cinderamata.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Penyerahan Cinderamata</h5>
+                            <p>Universitas Pakuan - PT. PLN Pusat, Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pln-sesimateri.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sesi Seminar - Pengenalan PLN</h5>
+                            <p>Diikuti oleh Peserta dari Universitas Pakuan</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Penutup Caraousel-->
+
+            <!--Pembuka Masa Pandemi-->
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Pandemi COVID-19</h1>
+                        <p class="lead">
+                            Galeri foto yang kalian lihat diatas adalah contoh OBS yang dilaksanakan secara offline.
+                            Tentu saja tahun 2019 masih
+                            dilaksanakan secara offline. Hingga, pandemi COVID 19 melanda, OBS tetap dilaksanakan namun
+                            secara offline, guys.
+                        </p>
+                    </div>
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/social-distancing.png" class="d-block mx-lg-auto img-fluid"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <!--Penutup Masa Pandemi-->
+
+            <div class="card text-center">
+                <div class="card-header">
+                    <h1>Daftar OBS Tahun Lalu</h1>
+                </div>
+                <!--Pembuka Cards Tahun OBS-->
+                <br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <!--Pembuka OBS 2018-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/together.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">OBS Tahun 2018</h5>
+                                <p class="card-text">Kegiatan bersifat offline. Ada 2 instansi yang dikunjungi yaitu :
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PT. PLN Pusat Jakarta</li>
+                                <li class="list-group-item">BATAN (Badan Tenaga Nuklir Nasional)</li>
+                            </ul>
+                        </div>
+                        <!--Penutup OBS 2018-->
+                    </div>
+                    <div class="col">
+                        <!--Pembuka OBS 2019-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/together.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">OBS 2019</h5>
+                                <p class="card-text">Kegiatan ini bersifat offline. Ada 2 instansi yang dikunjungi yaitu
+                                    :</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PT. Pertamina Jakarta</li>
+                                <li class="list-group-item">Perpustakaan Nasional Republik Indonesia</li>
+                            </ul>
+                        </div>
+                        <!--Penutup OBS 2019-->
+                    </div>
+                    <div class="col">
+                        <!--Pembuka OBS 2020-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/together.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">OBS Tahun 2020</h5>
+                                <p class="card-text">Kegiatan ini bersifat offline. Ada 2 instansi yang dikunjungi yaitu
+                                    :</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Badan Narkotika Nasional (BNN)</li>
+                                <li class="list-group-item">Badan Pengkajian dan Penerapan Teknologi (BPPT)</li>
+                            </ul>
+                        </div>
+                        <!--Penutup The Cards-->
+                    </div>
+                </div>
+                <!--Penutup Cards-->
+            </div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 
 </html>
