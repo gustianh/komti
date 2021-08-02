@@ -1,170 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  
+
   <!--Font Awesome-->
   <link href="/assets/font-awesome/css/all.css" rel="stylesheet">
   <!--load all styles -->
-  
+
   <title>Homepage</title>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"></svg>
-        <span class="fs-4" style="font-weight: bold; font-family: 'Dancing Script', cursive;
-        font-size: larger;">Komti Abadi
-        </span>
-      </a>
-
-      <header class="d-flex justify-content-center py-3">
-        <ul class="navbar nav nav-pills">
-          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-          <li class="nav-item"><a href="kontak_pengajar.html" class="nav-link">Daftar Kontak Dosen</a></li>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-light py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-weight: bold; font-family: 'Dancing Script', cursive;
+          font-size: large">Komti Abadi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="kontak_pengajar.html">Kontak Dosen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="obs.html">OBS</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Sidang</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="obs.html">Orientasi Bidang Studi</a></li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Sidang
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="pl.html">Sidang PL</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="pl.html">Sidang PL</a></li>
-              <li><a class="dropdown-item" href="#">Sidang Proposal</a></li>
-              <li><a class="dropdown-item" href="#">Sidang Hasil</a></li>
+              <li><a class="dropdown-item" href="proposal.html">Sidang Proposal</a></li>
+              <li><a class="dropdown-item" href="hasil.htnl">Sidang Hasil</a></li>
+              <li><a class="dropdown-item" href="skripsi.html">Sidang Skripsi</a></li>
+              <li><a class="dropdown-item" href="#">Sidang Komprehensif</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        </ul>
-      </header>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar-->
 
-      <div class="container-fluid">
-        <div class="px-4 py-5 my-5 text-center text-dark">
-          <img class="d-block mx-auto mb-4" src="images/snowman.png" alt="" width="250" height="250">
-          <h1 class="display-5 fw-bold">SUGENG RAWUH | SAMPURASUN</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Platform ini hadir untuk membantu para komti dan kuharap kamu juga.
-              Mencari nomor dosen atau butuh pencerahan untuk sidang? Tentu!
-            </p>
-          </div>
+  <div class="container-fluid">
+    <div class="px-4 py-5 my-5 text-center text-dark">
+      <img class="d-block mx-auto mb-4" src="images/snowman.png" alt="" width="250" height="250">
+      <h1 class="display-5 fw-bold">SUGENG RAWUH | SAMPURASUN</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Platform ini hadir untuk membantu para komti dan kuharap kamu juga.
+          Mencari nomor dosen atau butuh pencerahan untuk sidang? Tentu!
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Pembuka Responsive Aligned Hero With Image-->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/running_wild.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Bebas Khawatir.</h1>
+        <p class="lead">Cukup akses website ini jika Anda tiba - tiba rindu atau ada keperluan dengan dosen. Tinggal
+          klik, aku akan mengarahkanmu,
+          dan mulai sampaikan pesanmu. Sst! Tidak perlu simpan kontak.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="kontak_pengajar.html">
+            <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Chat dengan Dosen</button>
+          </a>
         </div>
       </div>
+    </div>
+  </div>
+  <!--Penutup Responsive Aligned Hero With Image-->
 
+  <!--Pembuka Responsive Aligned Hero Sidang-->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/feeling-blue.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Jangan sedih. Mungkin Ini yang kamu cari?</h1>
+        <p class="lead">
+          <a href="" target="_blank">
+            <span class="badge rounded-pill bg-primary">Permohonan Tempat Penelitian</span>
+          </a>
 
-      <!--Pembuka Responsive Aligned Hero With Image-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/running_wild.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-              height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Bebas Khawatir.</h1>
-            <p class="lead">Cukup akses website ini jika Anda tiba - tiba rindu atau ada keperluan dengan dosen. Tinggal
-              klik, aku akan mengarahkanmu,
-              dan mulai sampaikan pesanmu. Sst! Tidak perlu simpan kontak.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="kontak_pengajar.html">
-                <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Chat dengan Dosen</button>
-              </a>
-            </div>
-          </div>
+          <a href="" target="_blank">
+            <span class="badge rounded-pill bg-primary">Pengajuan SK Tugas Akhir</span>
+          </a>
+
+          <a href="" target="_blank">
+            <span class="badge rounded-pill bg-dark">Daftar Sidang Proposal</span>
+          </a>
+
+          <a href="" target="_blank">
+            <span class="badge rounded-pill bg-dark">Daftar Sidang Hasil</span>
+          </a>
+
+          <a href="" target="_blank">
+            <span class="badge rounded-pill bg-dark">Daftar Sidang Skripsi</span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Penutup Responsive Aligned Hero With Image-->
+
+  <!--Pembuka OBS-->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Orientasi Bidang Studi</h1>
+        <p class="lead"> Mengunjungi data center perusahaan besar? Tahu teknologi yang digunakan oleh start-up
+          ternama?
+          Ikut serta di seminar yang luar biasa mengagumkan? <strong>Ya. OBS jawabannya.</strong>
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="obs.html">
+            <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Simak Lebih Jauh!</button>
+          </a>
         </div>
       </div>
-      <!--Penutup Responsive Aligned Hero With Image-->
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/touring.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <!--Penutup OBS-->
 
-      <!--Pembuka Responsive Aligned Hero Sidang-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/feeling-blue.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-              height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Jangan sedih. Mungkin Ini yang kamu cari?</h1>
-            <p class="lead"> 
-              <a href="" target="_blank">
-                <span class="badge rounded-pill bg-primary">Permohonan Tempat Penelitian</span>
-              </a>
-              
-              <a href="" target="_blank">
-                <span class="badge rounded-pill bg-primary">Pengajuan SK Tugas Akhir</span>
-              </a>
-
-              <a href="" target="_blank">
-                <span class="badge rounded-pill bg-dark">Daftar Sidang Proposal</span>
-              </a>
-              
-              <a href="" target="_blank">
-                <span class="badge rounded-pill bg-dark">Daftar Sidang Hasil</span>
-              </a>
-
-              <a href="" target="_blank">
-                <span class="badge rounded-pill bg-dark">Daftar Sidang Skripsi</span>
-              </a>
-            </p>
-          </div>
+  <!--Pembuka Sidang PL-->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/sidang_pl-environtment study.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Sidang Praktik Lapang</h1>
+        <p class="lead"> Implementasi ilmu yang pernah didapat dari semester 1 hingga semester 5 dengan Praktik
+          Lapang.
+          Kamu sudah menemukan passionmu? Back - End, Front - End, UI/UX, Graphic Designer, Animator, Data Science,
+          atau bahkan Quality Assurance? Buktikan semua kemampuan hardskill dan softskillmu disini.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="#">
+            <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Kepoin!</button>
+          </a>
         </div>
       </div>
-      <!--Penutup Responsive Aligned Hero With Image-->
-
-      <!--Pembuka OBS-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Orientasi Bidang Studi</h1>
-            <p class="lead"> Mengunjungi data center perusahaan besar? Tahu teknologi yang digunakan oleh start-up
-              ternama?
-              Ikut serta di seminar yang luar biasa mengagumkan? <strong>Ya. OBS jawabannya.</strong>
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="obs.html">
-                <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Simak Lebih Jauh!</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/touring.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-              height="500" loading="lazy">
-          </div>
-        </div>
-      </div>
-      <!--Penutup OBS-->
-
-      <!--Pembuka Sidang PL-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/sidang_pl-environtment study.png" class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Sidang Praktik Lapang</h1>
-            <p class="lead"> Implementasi ilmu yang pernah didapat dari semester 1 hingga semester 5 dengan Praktik
-              Lapang.
-              Kamu sudah menemukan passionmu? Back - End, Front - End, UI/UX, Graphic Designer, Animator, Data Science,
-              atau bahkan Quality Assurance? Buktikan semua kemampuan hardskill dan softskillmu disini.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="#">
-                <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2">Kepoin!</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Penutup Sidang PL-->
+    </div>
+  </div>
+  <!--Penutup Sidang PL-->
 
   </div>
 
@@ -181,7 +200,8 @@
           <a href="" target="_blank">
             <button type="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">Kirim Masukan</button>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=6287738821661&text=Assalamu'alaikum Wr.Wb%2C%20Saya...%20NPM..." target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=6287738821661&text=Assalamu'alaikum Wr.Wb%2C%20Saya...%20NPM..."
+            target="_blank">
             <button type="button" class="btn btn-outline-primary btn-lg px-4">Personal Chat</button>
           </a>
         </div>
@@ -206,8 +226,18 @@
 
   </footer>
   <!-- Footer -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
